@@ -5,7 +5,7 @@ from transformers import pipeline
 # import
 
 st.title("ML Deployment Here!!!")
-download_dir(local_path, s3_prefix)
+# download_dir(local_path, s3_prefix)
 btn_download = st.button("Download model")
 if btn_download:
     with st.spinner("Downloading... Pls wait!"):
